@@ -184,7 +184,7 @@ exports = module.exports = __webpack_require__(5)(undefined);
 
 
 // module
-exports.push([module.i, ".my-component {\n  background-color: #c3dfb7;\n  height: 200px; }\n", ""]);
+exports.push([module.i, ".my-component {\n  height: 200px; }\n", ""]);
 
 // exports
 
