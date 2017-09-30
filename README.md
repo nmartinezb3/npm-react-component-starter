@@ -28,4 +28,6 @@ In order to preview the component during development:
 4. Install the package from the symlink: ```npm link my-react-components``` (check the package name you set in ```package.json```)
 5. Import the component: ```import { MyComponent } from 'my-react-components'```
 6. Use it! ```<MyComponent />```
+7. Everytime you make a change in the component, the changes will be reflected immediately in the preview project.
 
+For more information about npm symlinks, visit https://docs.npmjs.com/cli/link
