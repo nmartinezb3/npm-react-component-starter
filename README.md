@@ -4,20 +4,31 @@ Sample project prepared for create and publish React components on [npm](https:/
 
 
 ## Features
-- Webpack for building
+- Use Webpack for building
 - Sass ready (sass-loader). Just ```import 'your/sass/files.scss'``` from your components
 - ES2016 ready (babel loader).
-- Import images ready (url-loader). Just ```import myImage from 'my/image/dir'```
+- Import images from your components (url-loader). Just ```import myImage from 'my/image/dir/my_image.png'``` 
 
 ## How to use
 1. Clone the repo: ```git clone git@github.com:nmartinezb3/npm-react-component-starter.git```
 2. Change package name, author, and all stuff in ```package.json```
 3. Install all dependencies: ```npm install```
 4. Create your components under ```src/components/```
-5. Export them from from src/index.js:
+5. Export them from ```src/index.js```: 
+```
+import MyComponent from './components/MyComponent';
+import MyOtherComponent from './components/MyOtherComponent';
+
+export { 
+  MyComponent,
+  MyOtherComponent
+}
+```
+
 6. Make a build: ```npm run build```
-7. Publish to npm: ```npm publish```  (You must have an npm account)
-8. Now you are ready to install the package with ```npm install my-react-components```
+7. Publish to npm: ```npm publish```  (you must have an npm account)
+8. Install the package from other project: ```npm install my-react-components```
+9. Import the components: ```import { MyComponent, MyOtherComponent } from 'my-react-components'```
 
 
 ## Preview components during develop
