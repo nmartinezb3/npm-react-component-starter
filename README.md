@@ -11,7 +11,7 @@ Sample project prepared for create and publish React components on [npm](https:/
 
 ## How to use
 1. Clone the repo: ```git clone git@github.com:nmartinezb3/npm-react-component-starter.git```
-2. Change package name, author, and all stuff in package.json
+2. Change package name, author, and all stuff in ```package.json```
 3. Install all dependencies: ```npm install```
 4. Create your components under ```src/components/```
 5. Export them from from src/index.js:
