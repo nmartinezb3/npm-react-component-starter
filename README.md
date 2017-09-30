@@ -1,6 +1,7 @@
 # npm-react-component-starter
 
-# Project sample prepared for publishing React components on npm
+Project sample prepared for publishing React components on npm
+
 
 ## Features
 - Use webpack for building component
